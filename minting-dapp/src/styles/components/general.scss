@@ -1,7 +1,6 @@
 body {
   @apply p-6;
   @apply min-h-screen;
-
   @apply font-sans;
 
   // Simple background with color gradient
@@ -94,12 +93,12 @@ main {
 
     &.primary {
       @apply text-btn_primary-txt;
-      @apply bg-btn_primary-bg;
+      @apply bg-green-500;
       @apply border-btn_primary-border;
 
       &:hover {
         @apply text-btn_primary-hover_txt;
-        @apply bg-btn_primary-hover_bg;
+        @apply bg-green-600;
         @apply border-btn_primary-hover_border;
       }
 
@@ -151,4 +150,50 @@ main {
     @apply font-semibold;
     @apply text-label text-sm;
   }
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    margin: auto;
+    display: inline-block; 
+}
+
+.divforlogos {
+    text-align: center; 
+}
+
+.logotext {
+  padding-top: 15px;
+  text-align: center; 
+  @apply text-base text-green-500;
+}
+
+.logo-container {
+  //@apply grid sm:grid-cols-2 auto-rows-min;
+  @apply rounded-lg;
+  @apply max-w-md;
+  @apply font-mono;
+  @apply text-popups-txt text-sm;
+  @apply bg-popups-bg;
+  @apply shadow;
+}
+
+.loadingbrologo {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+}
+
+.loadingbro {
+  position: absolute;
+  z-index: 15;
+  height: 45px;
+  width: 60px;
+  top: 55%;
+  left: 49.5%;
 }

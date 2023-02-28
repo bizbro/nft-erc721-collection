@@ -89,7 +89,27 @@ export default class MintWidget extends React.Component<Props, State> {
             Please come back during the next sale!
           </div>
         }
+
+
+        <div>
+         
+        </div>
+
+
       </>
     );
   }
 }
+
+{/* <div className='logo-container'>
+<div className="use-block-explorer">
+  <div className='logotext'>
+    <span className='label'>Make sure to join our community! <span className="emoji">🍀</span></span>
+  </div>
+
+  <div className='divforlogos'>
+   <a href="https://twitter.com/RareBitsCanvas"><img className='logo' src="/build/images/twitter.png"/></a>
+   <a href="https://discord.gg/FMbQYMMtVn"><img className='logo' src="/build/images/discord.png"/></a>
+  </div>
+</div>
+</div> */}

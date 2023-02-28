@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+    
+  @font-palette-values --Green {
+    font-family: Rocher;
+    base-palette: 2;
+  }
+  .green {
+    font-palette: --Green;
+    margin: 0;
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 45px;
+    height: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .green2 {
+    font-palette: --Green;
+    margin: 0;
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

@@ -16,6 +16,8 @@ interface State {
 const defaultState: State = {
 };
 
+//var numberStock = parseInt(${this.props.totalSupply});
+
 export default class CollectionStatus extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -27,22 +29,19 @@ export default class CollectionStatus extends React.Component<Props, State> {
   {
     return (this.props.isWhitelistMintEnabled || !this.props.isPaused) && !this.props.isSoldOut;
   }
+  
+  
 
   render() {
     return (
       <>
         <div className="collection-status">
           <div className="user-address">
-            <span className="label">Wallet address:</span>
+            <span className="label">Your wallet address:</span>
             <span className="address">{this.props.userAddress}</span>
           </div>
-          
-          <div className="supply">
-            <span className="label">Supply</span>
-            {this.props.totalSupply}/{this.props.maxSupply}
-          </div>
 
-          <div className="current-sale">
+          <div className="user-address">
             <span className="label">Sale status</span>
             {this.isSaleOpen() ?
               <>
@@ -57,3 +56,8 @@ export default class CollectionStatus extends React.Component<Props, State> {
     );
   }
 }
+
+{/* <div className="supply">
+<span className="label">NFTs available</span>
+<span>{this.props.maxSupply - this.props.totalSupply}/{this.props.maxSupply} </span>
+</div> */}

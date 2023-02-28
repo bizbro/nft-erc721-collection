@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,23 @@
   <script src="/build/main.js"></script>
 </head>
 <body>
-  <main>
-    <img id="logo" src="/build/images/logo.png" alt="Logo" />
-
+  <main style="
+  background-image: url(/build/images/2e1.png);
+	position:absolute;
+  min-height: 100%;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	z-index:1;
+	background-size:cover;
+  "
+>
     <div id="minting-dapp"></div>
+    
   </main>
 
   <div id="notifications"></div>
 </body>
+
 </html>
