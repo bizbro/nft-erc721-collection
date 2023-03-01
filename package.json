@@ -1,5 +1,6 @@
 {
-  "name": "@hashlips-lab/nft-erc721-collection",
+  "homepage": "http://rarebitscanvas.com",
+  "name": "rarebitscanvas",
   "description": "An all-in-one solution for ERC721 collections.",
   "author": "Marco Lipparini <developer@liarco.net>",
   "license": "MIT",
