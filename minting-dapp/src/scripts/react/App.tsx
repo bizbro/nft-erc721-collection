@@ -36,3 +36,7 @@ const App = () => {
   };
 
 export default App;
+
+{/* <Route path={process.env.PUBLIC_URL + '/'} element={<Dapp/>}/>
+<Route path={process.env.PUBLIC_URL + '/faq'} element={<FAQ/>}/> 
+<Route path={process.env.PUBLIC_URL + '/about'} element={<AboutChanGirl/>}/> */}
